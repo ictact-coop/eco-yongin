@@ -27,3 +27,4 @@
 /.php-version
 /dump
 /web
+/logs/*.log
