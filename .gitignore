@@ -5,11 +5,11 @@
 /app/modules/contrib/
 /app/themes/contrib/
 /app/profiles/contrib/
-/app/libraries/
 /app/.*
 /app/*.php
 /app/*.txt
 /app/*.config
+/app/sites/*/settings.local.php
 
 # Ignore Drupal's file directory
 /app/sites/*/files/

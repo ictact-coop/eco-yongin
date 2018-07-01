@@ -754,6 +754,9 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+$settings['trusted_host_patterns'] = array(
+  getenv('TRUSTED_HOST_PATTERNS')
+);
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -790,9 +793,25 @@ $settings['entity_update_batch_size'] = 50;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+// if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+//   include $app_root . '/' . $site_path . '/settings.local.php';
+// }
+
 $config_directories['sync'] = '../config/sync';
 $settings['install_profile'] = 'standard';
+
+// Amazon Web Service S3
+$schemes = [
+    'aws-s3' => [
+        'driver' => 's3',
+        'config' => [
+            'key'    => getenv('S3_KEY'),
+            'secret' => getenv('S3_SECRET'),
+            'region' => getenv('S3_REGION'),
+            'bucket' => getenv('S3_BUCKET'),
+        ],
+        'cache' => TRUE
+    ]
+];
+
+$settings['flysystem'] = $schemes;

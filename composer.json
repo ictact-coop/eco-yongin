@@ -1,12 +1,13 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "ictact-coop/eco-yongin",
+    "description": "용인환경정의 웹사이트",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Yeongtaek, Hong",
+            "role": "Developer",
+            "email": "mozodev@users.noreply.github.com"
         }
     ],
     "repositories": [
@@ -20,12 +21,35 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-paranoia": "~1",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/asset_injector": "*",
+        "drupal/better_exposed_filters": "*",
+        "drupal/ckeditor_font": "*",
+        "drupal/ckeditor_uploadimage": "*",
+        "drupal/ckeditor_widgets": "*",
+        "drupal/colorbutton": "*",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
+        "drupal/ctools": "*",
+        "drupal/entity": "*",
+        "drupal/entity_browser": "*",
+        "drupal/entity_reference_revisions": "*",
+        "drupal/flysystem": "*",
+        "drupal/flysystem_s3": "*",
+        "drupal/google_analytics": "*",
+        "drupal/masquerade": "*",
+        "drupal/media_entity": "*",
+        "drupal/media_entity_image": "*",
+        "drupal/node_view_permissions": "*",
+        "drupal/panelbutton": "*",
+        "drupal/paragraphs": "*",
+        "drupal/smtp": "*",
+        "drupal/superfish": "*",
+        "drupal/video_embed_field": "*",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "drupal/wordpress_migrate": "^3.0"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.5.3"
@@ -36,7 +60,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "process-timeout":0
     },
     "autoload": {
         "classmap": [
@@ -56,7 +81,8 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
+        ],
+        "start-dev": ["php -S localhost:8888 -t app"]
     },
     "extra": {
         "installer-paths": {
