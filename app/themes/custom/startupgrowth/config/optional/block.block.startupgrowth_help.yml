@@ -1,0 +1,22 @@
+uuid: 9ecb9215-3c1a-4ca5-8a5b-b0ee2fd60426
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: startupgrowth_help
+theme: startupgrowth
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

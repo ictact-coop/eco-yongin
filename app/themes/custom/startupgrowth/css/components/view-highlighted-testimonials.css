@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Visual styles for Startup Growth's highlighted testimonials views.
+ */
+.view-testimonials--highlighted .views-field-body p {
+  font-size: 28px;
+  padding: 10px 0;
+}
+.view-testimonials--highlighted .views-field-body p:first-child:after {
+  color: #000;
+  font-size: 160px;
+  left: -87px;
+  top: 10px;
+}
+.view-testimonials--highlighted .views-field-body,
+.view-testimonials--highlighted .views-field-title,
+.view-testimonials--highlighted .views-field-field-mt-subtitle {
+  padding: 0 0 0 100px;
+}
+@media (min-width:1200px) {
+  .region-highlighted-bottom-first .view-testimonials--highlighted {
+    padding-right: 110px;
+  }
+}
+@media (max-width:767px) {
+  .view-testimonials--highlighted .views-field-body,
+  .view-testimonials--highlighted .views-field-title,
+  .view-testimonials--highlighted .views-field-field-mt-subtitle {
+    padding: 0 0 0 75px;
+  }
+  .view-testimonials--highlighted .views-field-body p:first-child:after {
+    left: -70px;
+    font-size: 130px;
+  }
+}
+
+/*@colored-regions*/
+.colored-region .view-testimonials--highlighted .views-field-body p:first-child:after {
+  color: #ffffff;
+}

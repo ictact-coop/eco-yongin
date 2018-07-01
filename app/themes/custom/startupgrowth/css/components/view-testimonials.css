@@ -1,0 +1,43 @@
+/**
+ * @file
+ * Visual styles for  Startup Growth's testimonials views.
+ */
+.view-testimonials .views-row {
+  margin: 0 0 35px 0;
+}
+.view-testimonials .views-field-body,
+.view-testimonials .views-field-title,
+.view-testimonials .views-field-field-mt-subtitle {
+  padding: 0 0 0 55px;
+}
+.view-testimonials .views-field-body p {
+  font-style: italic;
+  padding: 0 0 10px;
+  position: relative;
+}
+.view-testimonials .views-field-body p:first-child:after {
+  position: absolute;
+  font-family: 'PT Serif', Georgia, Times, Times New Roman, Serif;
+  content: "“";
+  left: -60px;
+  top: 0px;
+  font-size: 96px;
+  font-style: normal;
+  line-height: 1;
+}
+.view-testimonials .views-field-title {
+  font-size: 16px;
+}
+.view-testimonials .views-field-title a {
+  margin: 2px 0 6px 0;
+}
+.view-testimonials .views-field-field-mt-subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*@colored-regions*/
+.colored-region:not(.black) .view-testimonials .views-field-body p:first-child:after {
+  color: #ffffff;
+}
