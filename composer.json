@@ -28,7 +28,7 @@
         "drupal/ckeditor_widgets": "*",
         "drupal/colorbutton": "*",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5.3",
+        "drupal/core": "~8.5.5",
         "drupal/ctools": "*",
         "drupal/entity": "*",
         "drupal/entity_browser": "*",
