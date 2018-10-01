@@ -28,7 +28,7 @@
         "drupal/ckeditor_widgets": "*",
         "drupal/colorbutton": "*",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5.5",
+        "drupal/core": "8.6.1",
         "drupal/ctools": "*",
         "drupal/entity": "*",
         "drupal/entity_browser": "*",
@@ -52,7 +52,7 @@
         "drupal/wordpress_migrate": "^3.0"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5.3"
+        "webflo/drupal-core-require-dev": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
