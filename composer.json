@@ -28,7 +28,7 @@
         "drupal/ckeditor_widgets": "*",
         "drupal/colorbutton": "*",
         "drupal/console": "^1.0.2",
-        "drupal/core": "8.6.1",
+        "drupal/core": "^8.6",
         "drupal/ctools": "*",
         "drupal/entity": "*",
         "drupal/entity_browser": "*",
@@ -82,7 +82,7 @@
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
-        "start-dev": ["php -S localhost:8888 -t app"]
+        "start": ["drush rs /admin"]
     },
     "extra": {
         "installer-paths": {
@@ -94,6 +94,12 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "drupal-app-dir": "app",
-        "drupal-web-dir": "web"
+        "drupal-web-dir": "web",
+        "patches": {
+            "drupal/core": {
+                "2997982-45": "https://www.drupal.org/files/issues/2018-09-12/2997982-45.patch",
+                "truncate_taxonomy_term__parent_table": "https://www.drupal.org/files/issues/2018-10-17/2997982_truncate_taxonomy_term__parent_table.patch"
+            }
+        }
     }
 }
