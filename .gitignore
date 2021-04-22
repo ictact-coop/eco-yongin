@@ -5,11 +5,27 @@
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
-/web/.*
+/web/libraries
 /web/*.php
 /web/*.txt
 /web/*.config
 /web/sites/*/settings.local.php
+
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.ht.router.php
+/web/.htaccess
+/web/INSTALL.txt
+/web/README.txt
+/web/autoload.php
+/web/example.gitignore
+/web/index.php
+/web/robots.txt
+/web/update.php
+/web/web.config
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
@@ -26,20 +42,4 @@
 # Development
 /.php-version
 /dump
-/web
 /logs/*.log
-/.csslintrc
-/.editorconfig
-/.eslintignore
-/.eslintrc.json
-/.gitattributes
-/.ht.router.php
-/.htaccess
-/INSTALL.txt
-/README.txt
-/autoload.php
-/example.gitignore
-/index.php
-/robots.txt
-/update.php
-/web.config

@@ -1,0 +1,98 @@
+/**
+ * @file
+ * Visual styles for Startup Growth's latest items views.
+ */
+.view-latest-items .views-row {
+  padding: 10px 0;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  clear: both;
+}
+.view-latest-items .views-row:hover {
+  background: #3f3f3f;
+  color: #fff;
+}
+.view-latest-items .views-field-field-image {
+  width: 40%;
+  margin-right: 20px;
+  float: left;
+}
+.view-latest-items .views-field-field-image ~ .views-field-title,
+.view-latest-items .views-field-field-image ~ .views-field-body {
+  margin-left: 47%;
+}
+.view-latest-items .views-field-title a {
+  color: #1e1e1e;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+.view-latest-items .views-row:hover .views-field-title a {
+  color: #fff;
+}
+.view-latest-items .views-field-title a:hover {
+  text-decoration: underline;
+}
+.view-latest-items .views-field-body p {
+  padding: 0;
+  font-size: 0.78em;
+}
+.view-latest-items .more-link {
+  display: inline-block;
+}
+.colored-region .view-latest-items .views-field-title a {
+  color: #e1e1e1;
+}
+.colored-region .view-latest-items .views-field-title a:hover {
+  text-decoration: none;
+}
+.footer-area .view-latest-items .views-field-field-image ~ .views-field-title,
+.footer-area .view-latest-items .views-field-field-image ~ .views-field-body {
+  margin-left: 48%;
+}
+@media (min-width:992px) {
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image {
+    display: none;
+  }
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-body {
+    margin-left: 0;
+  }
+}
+@media (max-width:991px) {
+  .view-latest-items .more-link {
+    float: right;
+  }
+}
+@media (min-width:481px) and (max-width:991px) {
+  .view-latest-items .views-row {
+    clear: none;
+  }
+  .view-latest-items .views-field-field-image ~ .views-field-title,
+  .view-latest-items .views-field-field-image ~ .views-field-body {
+    margin-left: 45%;
+  }
+}
+@media (min-width:481px) and (max-width:767px) {
+  .view-latest-items .views-field-field-image {
+    margin-right: 10px;
+  }
+}
+@media (max-width:480px) {
+  .view-latest-items .col-xs-6.col-md-12 {
+    width: 100%;
+    float: none;
+  }
+  .view-latest-items .views-field-field-image {
+    margin-right: 7%;
+  }
+}
+.view-latest-items .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

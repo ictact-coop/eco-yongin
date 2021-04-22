@@ -1,0 +1,22 @@
+uuid: dd0de6a3-e70f-4b99-8d75-502a0dc61995
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: startupgrowth_search
+theme: startupgrowth
+region: search_area
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }
