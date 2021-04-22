@@ -18,16 +18,15 @@
     ],
     "require": {
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-paranoia": "~1",
-        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-project-message": "^8.8",
+        "drupal/core-recommended": "^8.8",
         "drupal/asset_injector": "*",
         "drupal/better_exposed_filters": "*",
         "drupal/ckeditor_font": "*",
         "drupal/ckeditor_uploadimage": "*",
         "drupal/ckeditor_widgets": "*",
         "drupal/colorbutton": "*",
-        "drupal/console": "^1.0.2",
         "drupal/core": "^8.6",
         "drupal/ctools": "*",
         "drupal/entity": "*",
@@ -46,13 +45,7 @@
         "drupal/superfish": "*",
         "drupal/video_embed_field": "*",
         "drush/drush": "^9.0.0",
-        "vlucas/phpdotenv": "^2.4",
-        "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
-        "drupal/wordpress_migrate": "^3.0"
-    },
-    "require-dev": {
-        "webflo/drupal-core-require-dev": "*"
+        "vlucas/phpdotenv": "^2.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -64,37 +57,43 @@
         "process-timeout":0
     },
     "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ],
         "files": ["load.environment.php"]
     },
     "scripts": {
-        "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
         "start": ["drush rs /admin"]
     },
     "extra": {
-        "installer-paths": {
-            "app/core": ["type:drupal-core"],
-            "app/libraries/{$name}": ["type:drupal-library"],
-            "app/modules/contrib/{$name}": ["type:drupal-module"],
-            "app/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "app/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/{$name}": ["type:drupal-drush"]
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
         },
-        "drupal-app-dir": "app",
-        "drupal-web-dir": "web",
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
         "patches": {
             "drupal/core": {
                 "2997982-45": "https://www.drupal.org/files/issues/2018-09-12/2997982-45.patch",
