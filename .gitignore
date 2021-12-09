@@ -2,6 +2,7 @@
 /drush/contrib/
 /vendor/
 /app/core/
+/app/libraries/
 /app/modules/contrib/
 /app/themes/contrib/
 /app/profiles/contrib/
@@ -28,3 +29,18 @@
 /dump
 /web
 /logs/*.log
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+/.ht.router.php
+/.htaccess
+/INSTALL.txt
+/README.txt
+/autoload.php
+/example.gitignore
+/index.php
+/robots.txt
+/update.php
+/web.config

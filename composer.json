@@ -19,16 +19,14 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-paranoia": "~1",
-        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal-composer/drupal-paranoia": "*",
+        "drupal/recommended-project": "^8",
         "drupal/asset_injector": "*",
         "drupal/better_exposed_filters": "*",
         "drupal/ckeditor_font": "*",
         "drupal/ckeditor_uploadimage": "*",
         "drupal/ckeditor_widgets": "*",
         "drupal/colorbutton": "*",
-        "drupal/console": "^1.0.2",
-        "drupal/core": "^8.6",
         "drupal/ctools": "*",
         "drupal/entity": "*",
         "drupal/entity_browser": "*",
@@ -82,9 +80,15 @@
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
-        "start": ["drush rs /admin"]
+        "start": ["drush rs"]
     },
     "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "app/",
+                "project-root": "./"
+            }
+        },
         "installer-paths": {
             "app/core": ["type:drupal-core"],
             "app/libraries/{$name}": ["type:drupal-library"],
@@ -94,12 +98,6 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "drupal-app-dir": "app",
-        "drupal-web-dir": "web",
-        "patches": {
-            "drupal/core": {
-                "2997982-45": "https://www.drupal.org/files/issues/2018-09-12/2997982-45.patch",
-                "truncate_taxonomy_term__parent_table": "https://www.drupal.org/files/issues/2018-10-17/2997982_truncate_taxonomy_term__parent_table.patch"
-            }
-        }
+        "drupal-web-dir": "web"
     }
 }
