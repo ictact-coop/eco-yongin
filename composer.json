@@ -29,7 +29,7 @@
         "drupal/colorbutton": "*",
         "drupal/ctools": "*",
         "drupal/entity": "*",
-        "drupal/entity_browser": "*",
+        "drupal/entity_browser": "^1",
         "drupal/entity_reference_revisions": "*",
         "drupal/flysystem": "*",
         "drupal/flysystem_s3": "*",
@@ -43,14 +43,9 @@
         "drupal/smtp": "*",
         "drupal/superfish": "*",
         "drupal/video_embed_field": "*",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^10",
         "vlucas/phpdotenv": "^2.4",
-        "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
         "drupal/wordpress_migrate": "^3.0"
-    },
-    "require-dev": {
-        "webflo/drupal-core-require-dev": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
