@@ -56,3 +56,7 @@
 .view.row .view-content:after {
   clear: both;
 }
+
+.view-id-response_to_the_climate_crisis.view-display-id-page_1 .view-header strong span {
+  font-size: 36px;
+}
