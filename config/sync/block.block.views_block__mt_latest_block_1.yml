@@ -1,0 +1,24 @@
+uuid: 146151a6-455d-4ef1-9ac3-0490852fe517
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_latest_block_1
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -28
+provider: null
+plugin: 'views_block:mt_latest-block_1'
+settings:
+  id: 'views_block:mt_latest-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

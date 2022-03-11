@@ -1,0 +1,25 @@
+uuid: 2dd316f2-213a-48ca-999b-b6dec9bc6997
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_video
+    - node.type.press
+  module:
+    - video_embed_field
+id: node.press.field_mt_video
+field_name: field_mt_video
+entity_type: node
+bundle: press
+label: 'Video URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: '0'
+    vimeo: '0'
+    youtube: '0'
+field_type: video_embed_field

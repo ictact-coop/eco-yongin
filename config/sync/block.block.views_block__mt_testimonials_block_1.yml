@@ -1,0 +1,30 @@
+uuid: a02743ca-0274-4562-bfd1-28cd3de1a148
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_testimonials
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_testimonials_block_1
+theme: startupgrowth
+region: highlighted_bottom_first
+weight: -16
+provider: null
+plugin: 'views_block:mt_testimonials-block_1'
+settings:
+  id: 'views_block:mt_testimonials-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/1\r\n/node/16\r\n/node/17"
+    negate: false
+    context_mapping: {  }

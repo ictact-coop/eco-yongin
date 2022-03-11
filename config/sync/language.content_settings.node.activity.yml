@@ -1,0 +1,11 @@
+uuid: c8aa9318-cfe7-4636-a129-ce0f87b1e6d5
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.activity
+id: node.activity
+target_entity_type_id: node
+target_bundle: activity
+default_langcode: site_default
+language_alterable: false

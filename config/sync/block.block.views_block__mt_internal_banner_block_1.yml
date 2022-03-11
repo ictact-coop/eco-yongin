@@ -1,0 +1,24 @@
+uuid: 4edb89b4-3a7b-4e90-8905-c6701e14f02d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_internal_banner
+  module:
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_internal_banner_block_1
+theme: startupgrowth
+region: banner
+weight: -10
+provider: null
+plugin: 'views_block:mt_internal_banner-block_1'
+settings:
+  id: 'views_block:mt_internal_banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

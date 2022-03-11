@@ -1,0 +1,22 @@
+uuid: bdba45ee-5e37-4199-8fb4-f397a6514db9
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: startupgrowth_powered
+theme: startupgrowth
+region: header_top
+weight: -18
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

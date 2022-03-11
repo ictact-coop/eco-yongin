@@ -1,0 +1,11 @@
+uuid: 9ed6ee67-c0ee-4069-ae1a-fc764aab96f0
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mt_product_tags
+id: taxonomy_term.mt_product_tags
+target_entity_type_id: taxonomy_term
+target_bundle: mt_product_tags
+default_langcode: site_default
+language_alterable: false

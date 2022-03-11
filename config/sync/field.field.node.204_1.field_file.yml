@@ -1,0 +1,27 @@
+uuid: e446f7a5-c64c-45ca-b4a1-6ecae6f29f3b
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.204_1
+  module:
+    - file
+id: node.204_1.field_file
+field_name: field_file
+entity_type: node
+bundle: '204_1'
+label: file
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt hwp doc docx xls xlsx pdf ppt pptx pps ppsx zip alz'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

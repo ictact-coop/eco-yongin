@@ -1,0 +1,11 @@
+uuid: 7db470c7-c8da-4663-b246-b140b842829d
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.mt_showcase
+id: node.mt_showcase
+target_entity_type_id: node
+target_bundle: mt_showcase
+default_langcode: site_default
+language_alterable: false

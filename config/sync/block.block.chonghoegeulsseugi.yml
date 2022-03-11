@@ -1,0 +1,41 @@
+uuid: ad7136a9-118e-4f67-bc69-9a321d5db6d7
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6a507e0-091b-4d0c-9ab3-4677f3f965a7'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - startupgrowth
+id: chonghoegeulsseugi
+theme: startupgrowth
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:b6a507e0-091b-4d0c-9ab3-4677f3f965a7'
+settings:
+  id: 'block_content:b6a507e0-091b-4d0c-9ab3-4677f3f965a7'
+  label: '총회 글쓰기'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /assembly
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      teacher: teacher
+      manager: manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

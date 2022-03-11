@@ -1,0 +1,25 @@
+uuid: de31105f-9c98-4a16-8c0b-f2ac7ced2d3d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:77bbdaf0-f40e-46e6-9ecf-f4cb3eb9f644'
+  module:
+    - block_content
+  theme:
+    - startupgrowth
+id: copyright
+theme: startupgrowth
+region: sub_footer_first
+weight: -30
+provider: null
+plugin: 'block_content:77bbdaf0-f40e-46e6-9ecf-f4cb3eb9f644'
+settings:
+  id: 'block_content:77bbdaf0-f40e-46e6-9ecf-f4cb3eb9f644'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

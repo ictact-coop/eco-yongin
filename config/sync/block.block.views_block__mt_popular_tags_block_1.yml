@@ -1,0 +1,30 @@
+uuid: 23e139e4-76e8-4e37-b128-638fbe6e4256
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_popular_tags
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_popular_tags_block_1
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -23
+provider: null
+plugin: 'views_block:mt_popular_tags-block_1'
+settings:
+  id: 'views_block:mt_popular_tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

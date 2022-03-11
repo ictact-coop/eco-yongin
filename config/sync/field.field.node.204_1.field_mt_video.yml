@@ -1,0 +1,25 @@
+uuid: 1c2404fc-1ffd-4558-bc8c-ea3b0eb2adb3
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_video
+    - node.type.204_1
+  module:
+    - video_embed_field
+id: node.204_1.field_mt_video
+field_name: field_mt_video
+entity_type: node
+bundle: '204_1'
+label: 'Video URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: '0'
+    youtube_playlist: '0'
+    vimeo: '0'
+field_type: video_embed_field

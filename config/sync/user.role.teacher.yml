@@ -1,0 +1,49 @@
+uuid: 4f5427fa-c037-40ea-9a60-ef0bebf0d92c
+langcode: ko
+status: true
+dependencies: {  }
+id: teacher
+label: 강사
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'cancel account'
+  - 'change own username'
+  - 'create 204_1 content'
+  - 'create activity content'
+  - 'create article content'
+  - 'create chonghoe content'
+  - 'create mt_showcase content'
+  - 'create mt_slideshow_entry content'
+  - 'create notice content'
+  - 'create page content'
+  - 'create press content'
+  - 'create report content'
+  - 'delete own 204_1 content'
+  - 'delete own activity content'
+  - 'delete own article content'
+  - 'delete own chonghoe content'
+  - 'delete own mt_showcase content'
+  - 'delete own mt_slideshow_entry content'
+  - 'delete own notice content'
+  - 'delete own page content'
+  - 'delete own press content'
+  - 'delete own report content'
+  - 'edit own 204_1 content'
+  - 'edit own activity content'
+  - 'edit own article content'
+  - 'edit own chonghoe content'
+  - 'edit own mt_showcase content'
+  - 'edit own mt_slideshow_entry content'
+  - 'edit own notice content'
+  - 'edit own press content'
+  - 'edit own report content'
+  - 'use text format full_html'
+  - 'view any old_datas content'
+  - 'view old_datas revisions'
+  - 'view own old_datas content'
+  - 'view own unpublished content'
+  - 'view the administration theme'

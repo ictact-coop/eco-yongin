@@ -1,0 +1,30 @@
+uuid: dc53ea01-dc0d-4b3c-8f0b-f9b79bc79be8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_slideshow_full_width
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_slideshow_full_width_block_1
+theme: startupgrowth
+region: banner
+weight: -8
+provider: null
+plugin: 'views_block:mt_slideshow_full_width-block_1'
+settings:
+  id: 'views_block:mt_slideshow_full_width-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

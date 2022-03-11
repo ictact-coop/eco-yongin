@@ -1,0 +1,18 @@
+uuid: 4009e59d-484b-460c-a4c1-21d4925bcc05
+langcode: ko
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 성명서
+type: press
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

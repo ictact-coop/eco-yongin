@@ -1,0 +1,23 @@
+uuid: 5d0d5303-7ba0-4216-b69b-132db15dca7f
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.report
+  module:
+    - text
+id: node.report.body
+field_name: body
+entity_type: node
+bundle: report
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

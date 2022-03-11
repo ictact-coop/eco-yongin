@@ -1,0 +1,41 @@
+uuid: 08cc40da-6221-4d73-8e0d-88585f854847
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9cbf5322-e44c-415a-8e81-bb7a3c3f1d06'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - startupgrowth
+id: bodojalyogeulsseugi
+theme: startupgrowth
+region: content
+weight: -17
+provider: null
+plugin: 'block_content:9cbf5322-e44c-415a-8e81-bb7a3c3f1d06'
+settings:
+  id: 'block_content:9cbf5322-e44c-415a-8e81-bb7a3c3f1d06'
+  label: '보도자료 글쓰기'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /report
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      teacher: teacher
+      manager: manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,41 @@
+uuid: 511bc90e-1063-417f-b4c7-0245f41ff60a
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3a90637a-df57-4ada-8c1c-2e0ca5c36f47'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - startupgrowth
+id: 2041hogeulsseugi
+theme: startupgrowth
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:3a90637a-df57-4ada-8c1c-2e0ca5c36f47'
+settings:
+  id: 'block_content:3a90637a-df57-4ada-8c1c-2e0ca5c36f47'
+  label: '204-1호 글쓰기'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      teacher: teacher
+      manager: manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: /204-1
+    negate: false
+    context_mapping: {  }

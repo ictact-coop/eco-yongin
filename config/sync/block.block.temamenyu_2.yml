@@ -1,0 +1,25 @@
+uuid: 2bf8ebbe-1368-454e-851d-a554cf9c7b6e
+langcode: ko
+status: true
+dependencies:
+  config:
+    - system.menu.theme-menu
+  module:
+    - system
+  theme:
+    - startupgrowth
+id: temamenyu_2
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -27
+provider: null
+plugin: 'system_menu_block:theme-menu'
+settings:
+  id: 'system_menu_block:theme-menu'
+  label: 테마메뉴
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

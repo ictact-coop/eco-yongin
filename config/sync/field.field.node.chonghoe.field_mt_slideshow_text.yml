@@ -1,0 +1,21 @@
+uuid: 33ccc74c-cb40-477d-b9a0-4ef83fa335b3
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_slideshow_text
+    - node.type.chonghoe
+  module:
+    - text
+id: node.chonghoe.field_mt_slideshow_text
+field_name: field_mt_slideshow_text
+entity_type: node
+bundle: chonghoe
+label: 'Slideshow text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

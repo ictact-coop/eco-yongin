@@ -1,0 +1,25 @@
+uuid: 3b780fdb-886e-45b9-8c86-8f6e1a48a55e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2054bf17-957d-43d6-a736-6b7ac3ba0f2f'
+  module:
+    - block_content
+  theme:
+    - startupgrowth
+id: socialbookmarks
+theme: startupgrowth
+region: footer_top_first
+weight: -14
+provider: null
+plugin: 'block_content:2054bf17-957d-43d6-a736-6b7ac3ba0f2f'
+settings:
+  id: 'block_content:2054bf17-957d-43d6-a736-6b7ac3ba0f2f'
+  label: 'Social Bookmarks'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

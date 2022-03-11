@@ -1,0 +1,37 @@
+uuid: a570fc01-0209-4c58-a5d7-ff7b3e0b9bb4
+langcode: ko
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.report.body
+    - field.field.node.report.comment
+    - field.field.node.report.field_file
+    - field.field.node.report.field_image
+    - node.type.report
+  module:
+    - text
+    - user
+id: node.report.teaser
+targetEntityType: node
+bundle: report
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_file: true
+  field_image: true
+  langcode: true

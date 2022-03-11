@@ -1,0 +1,14 @@
+uuid: 88408317-8b63-4e96-aad5-e09b6ec2b533
+langcode: ko
+status: false
+dependencies: {  }
+id: peulonteupeiji_geulideu_siseutaem_jeogyong
+label: '프론트페이지 그리드 시스탬 적용'
+code: "/*\r\njQuery(document).ready(function($) {\r\n    //컨텐츠 부분 공지사항, 대지산이야기, 후원신청을 다단 매뉴로 나누기\r\n    //$(\"#view-id-front_notice\").addClass(\"col-md-12\"); 공지사항 안에 공지사항 목록이 md-4 로 되어 있어서 속성값 변경 방법을 몰라서, addclass로 md-12로 만들려고 했는데. 실패함 대신 뷰에서 md를 결정할수 있는 옵션이 있음\r\n    //$(\"#block-yeonlagcheo\").addClass(\"col-md-12\");\r\n    $(\"#block-views-block-front-page-notice-block-1\").addClass(\"col-md-8\");\r\n    $(\"#block-daejisaniyagi\").addClass(\"col-md-4\");\r\n    $(\"#block-huwonsincheong\").addClass(\"col-md-4\"); //왜인지는 모르겟지만 실행하면 공지사항, 대지산이야기, 후원신청 전부 없어짐  //\r\n    //로고와 메인 메뉴 사이의 간격재조절 로고 md4->md3 메뉴 md8-> md9\r\n    $(\"#header-inside>div>div:first-of-type\").removeClass(\"col-md-4\").addClass(\"col-md-3\");\r\n    $(\"#header-inside>div>div:nth-child(2)\").removeClass(\"col-md-8\").addClass(\"col-md-9\");\r\n})\r\n/*\r\n"
+noscript: null
+noscriptRegion: {  }
+jquery: false
+header: null
+preprocess: false
+conditions: {  }
+conditions_require_all: true

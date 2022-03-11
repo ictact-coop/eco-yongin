@@ -1,0 +1,11 @@
+uuid: 3a341cb4-3f46-4b9b-9d14-67ab278994bc
+langcode: ko
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_tabs_block
+id: block_content.mt_tabs_block
+target_entity_type_id: block_content
+target_bundle: mt_tabs_block
+default_langcode: site_default
+language_alterable: false

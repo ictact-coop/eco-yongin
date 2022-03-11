@@ -1,0 +1,31 @@
+uuid: bb37bf65-87ff-404b-b3bf-9bfb6e7b574c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5e872ebe-f221-48b5-8dbf-041d40eecc43'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: blockwithimage
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -26
+provider: null
+plugin: 'block_content:5e872ebe-f221-48b5-8dbf-041d40eecc43'
+settings:
+  id: 'block_content:5e872ebe-f221-48b5-8dbf-041d40eecc43'
+  label: 'Block with image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,11 @@
+uuid: 2f413488-08bd-47e6-b10c-3735e629f93f
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.mt_testimonial
+id: node.mt_testimonial
+target_entity_type_id: node
+target_bundle: mt_testimonial
+default_langcode: site_default
+language_alterable: false

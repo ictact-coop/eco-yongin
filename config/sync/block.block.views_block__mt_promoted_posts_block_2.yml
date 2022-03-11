@@ -1,0 +1,30 @@
+uuid: cb6c4975-9f91-46df-b340-f0101ade683c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_promoted_posts
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_promoted_posts_block_2
+theme: startupgrowth
+region: highlighted
+weight: -15
+provider: null
+plugin: 'views_block:mt_promoted_posts-block_2'
+settings:
+  id: 'views_block:mt_promoted_posts-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/1\r\n/node/16\r\n/node/17"
+    negate: false
+    context_mapping: {  }

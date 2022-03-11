@@ -1,0 +1,8 @@
+uuid: 9c9737d5-fad8-4c48-b6d7-7120d181f9ce
+langcode: ko
+status: true
+dependencies: {  }
+name: '공지사항 카테고리'
+vid: gongjisahang_kategoli
+description: ''
+weight: 0

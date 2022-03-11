@@ -1,0 +1,27 @@
+uuid: 537fe8ce-3e8a-4d15-a93c-3f96817ee586
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.notice
+  module:
+    - file
+id: node.notice.field_file
+field_name: field_file
+entity_type: node
+bundle: notice
+label: file
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt hwp doc docx xls xlsx pdf ppt pptx pps ppsx zip alz'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

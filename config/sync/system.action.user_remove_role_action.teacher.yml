@@ -1,0 +1,14 @@
+uuid: b7cc4a15-0711-49c8-8389-5a3212378727
+langcode: ko
+status: true
+dependencies:
+  config:
+    - user.role.teacher
+  module:
+    - user
+id: user_remove_role_action.teacher
+label: 'Remove the 강사 role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: teacher

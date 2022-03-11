@@ -1,0 +1,65 @@
+uuid: b1880deb-986b-4928-be5c-002aadb2cea5
+langcode: ko
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.chonghoe.body
+    - field.field.node.chonghoe.comment
+    - field.field.node.chonghoe.field_file
+    - field.field.node.chonghoe.field_image
+    - field.field.node.chonghoe.field_mt_slideshow
+    - field.field.node.chonghoe.field_mt_slideshow_image
+    - field.field.node.chonghoe.field_mt_slideshow_text
+    - image.style.large
+    - node.type.chonghoe
+  module:
+    - comment
+    - file
+    - image
+    - text
+    - user
+id: node.chonghoe.default
+targetEntityType: node
+bundle: chonghoe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_file:
+    weight: 2
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  langcode: true
+  links: true

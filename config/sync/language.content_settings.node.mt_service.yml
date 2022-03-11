@@ -1,0 +1,11 @@
+uuid: 23ba7e40-3ac7-4742-9e12-caa1dfa5c211
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.mt_service
+id: node.mt_service
+target_entity_type_id: node
+target_bundle: mt_service
+default_langcode: site_default
+language_alterable: false

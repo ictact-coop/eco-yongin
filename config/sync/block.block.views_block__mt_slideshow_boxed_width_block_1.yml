@@ -1,0 +1,30 @@
+uuid: c69bcce4-b3d9-4a0a-8a82-9efb97a6dae0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_slideshow_boxed_width
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_slideshow_boxed_width_block_1
+theme: startupgrowth
+region: banner
+weight: -9
+provider: null
+plugin: 'views_block:mt_slideshow_boxed_width-block_1'
+settings:
+  id: 'views_block:mt_slideshow_boxed_width-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/16\r\n<front>"
+    negate: false
+    context_mapping: {  }

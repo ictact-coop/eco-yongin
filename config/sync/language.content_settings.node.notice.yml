@@ -1,0 +1,11 @@
+uuid: dcd4eb55-4341-4d1d-90c1-27c6d1e7ede9
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.notice
+id: node.notice
+target_entity_type_id: node
+target_bundle: notice
+default_langcode: ko
+language_alterable: true

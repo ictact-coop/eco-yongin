@@ -1,0 +1,100 @@
+uuid: ce4d4cbb-8a7f-4ccb-95b9-6e743797be63
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.field.node.chonghoe.body
+    - field.field.node.chonghoe.comment
+    - field.field.node.chonghoe.field_file
+    - field.field.node.chonghoe.field_image
+    - field.field.node.chonghoe.field_mt_slideshow
+    - field.field.node.chonghoe.field_mt_slideshow_image
+    - field.field.node.chonghoe.field_mt_slideshow_text
+    - image.style.thumbnail
+    - node.type.chonghoe
+  module:
+    - comment
+    - file
+    - image
+    - text
+id: node.chonghoe.default
+targetEntityType: node
+bundle: chonghoe
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  comment:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_file:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_image:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  langcode: true
+  path: true
+  promote: true

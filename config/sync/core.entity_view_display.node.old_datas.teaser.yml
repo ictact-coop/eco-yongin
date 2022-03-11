@@ -1,0 +1,33 @@
+uuid: 757cc928-14b4-47d8-bebb-82f81bb11cd6
+langcode: ko
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.old_datas.body
+    - field.field.node.old_datas.field_old_data_cate
+    - node.type.old_datas
+  module:
+    - text
+    - user
+id: node.old_datas.teaser
+targetEntityType: node
+bundle: old_datas
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_old_data_cate: true
+  langcode: true

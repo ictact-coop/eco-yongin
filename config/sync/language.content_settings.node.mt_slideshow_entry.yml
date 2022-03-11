@@ -1,0 +1,11 @@
+uuid: 20d1256d-7b32-40bd-8fdb-5470b0ed233b
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.mt_slideshow_entry
+id: node.mt_slideshow_entry
+target_entity_type_id: node
+target_bundle: mt_slideshow_entry
+default_langcode: site_default
+language_alterable: false

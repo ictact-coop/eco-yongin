@@ -1,0 +1,30 @@
+uuid: 1fcec874-72e9-40a2-95e9-16d41fb3bd3a
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.mt_benefits
+  module:
+    - system
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_benefits_block_1
+theme: startupgrowth
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:mt_benefits-block_1'
+settings:
+  id: 'views_block:mt_benefits-block_1'
+  label: 'OUR PHILOSOPHY'
+  provider: views
+  label_display: visible
+  views_label: 'OUR PHILOSOPHY'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/1\r\n/node/16\r\n/node/17"
+    negate: false
+    context_mapping: {  }

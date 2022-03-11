@@ -1,0 +1,31 @@
+uuid: e06d84be-f256-4445-bd8a-ad7d4da4c92e
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bfb52bb6-d7d4-492d-9d05-5b1bda66dca8'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: hacheonsalligihwaldong
+theme: startupgrowth
+region: content
+weight: -22
+provider: null
+plugin: 'block_content:bfb52bb6-d7d4-492d-9d05-5b1bda66dca8'
+settings:
+  id: 'block_content:bfb52bb6-d7d4-492d-9d05-5b1bda66dca8'
+  label: '하천 살리기 활동'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /river
+    negate: false
+    context_mapping: {  }

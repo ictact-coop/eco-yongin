@@ -1,0 +1,23 @@
+uuid: 73383169-863b-4855-aed6-d9fd1d90ed66
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.press
+  module:
+    - text
+id: node.press.body
+field_name: body
+entity_type: node
+bundle: press
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

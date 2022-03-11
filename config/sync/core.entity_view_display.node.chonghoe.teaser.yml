@@ -1,0 +1,43 @@
+uuid: c029807c-6616-4d37-85d5-056f343e4f03
+langcode: ko
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chonghoe.body
+    - field.field.node.chonghoe.comment
+    - field.field.node.chonghoe.field_file
+    - field.field.node.chonghoe.field_image
+    - field.field.node.chonghoe.field_mt_slideshow
+    - field.field.node.chonghoe.field_mt_slideshow_image
+    - field.field.node.chonghoe.field_mt_slideshow_text
+    - node.type.chonghoe
+  module:
+    - text
+    - user
+id: node.chonghoe.teaser
+targetEntityType: node
+bundle: chonghoe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_file: true
+  field_image: true
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  langcode: true

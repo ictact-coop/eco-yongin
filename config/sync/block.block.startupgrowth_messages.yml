@@ -1,0 +1,22 @@
+uuid: ddc219e4-12a6-4ed8-8a4e-655839b96539
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: startupgrowth_messages
+theme: startupgrowth
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: '상태 메시지'
+  provider: system
+  label_display: '0'
+visibility: {  }

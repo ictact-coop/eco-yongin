@@ -1,0 +1,11 @@
+uuid: fb08ff67-198a-484a-bc18-c507e0c5bf03
+langcode: ko
+status: true
+dependencies:
+  config:
+    - contact.form.alternative
+id: contact_message.alternative
+target_entity_type_id: contact_message
+target_bundle: alternative
+default_langcode: site_default
+language_alterable: false

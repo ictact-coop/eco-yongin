@@ -1,0 +1,31 @@
+uuid: 4ccd4fb9-290a-4464-be89-87a6d844e51d
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d7a311aa-e43b-4fe7-b26d-56641742fc76'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: huwonsincheong
+theme: startupgrowth
+region: sidebar_second
+weight: -28
+provider: null
+plugin: 'block_content:d7a311aa-e43b-4fe7-b26d-56641742fc76'
+settings:
+  id: 'block_content:d7a311aa-e43b-4fe7-b26d-56641742fc76'
+  label: 후원신청
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

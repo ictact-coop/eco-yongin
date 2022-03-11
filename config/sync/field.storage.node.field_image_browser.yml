@@ -1,0 +1,32 @@
+uuid: 765b1da4-ff81-47bf-9aca-45613fc26726
+langcode: ko
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: YtTY_0RRrqa4tG8YA_WNMBauWNuKFPaFrrn4zgGzMiQ
+id: node.field_image_browser
+field_name: field_image_browser
+entity_type: node
+type: image
+settings:
+  uri_scheme: aws-s3
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

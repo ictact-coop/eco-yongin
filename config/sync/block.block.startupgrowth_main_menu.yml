@@ -1,0 +1,32 @@
+uuid: c3d2ae2a-0ad4-4d29-9c07-9992aa063b70
+langcode: ko
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: startupgrowth_main_menu
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -24
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: '메인 메뉴'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

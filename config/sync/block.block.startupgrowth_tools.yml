@@ -1,0 +1,27 @@
+uuid: 2734487b-292d-4e80-aa1f-2c84472392ea
+langcode: ko
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: startupgrowth_tools
+theme: startupgrowth
+region: header_top
+weight: -17
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

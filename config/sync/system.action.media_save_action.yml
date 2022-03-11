@@ -1,0 +1,13 @@
+uuid: a7e68c5f-0e2a-47ca-a056-4651bcbebe38
+langcode: ko
+status: true
+dependencies:
+  module:
+    - media_entity
+_core:
+  default_config_hash: RLKvR-W0Kn7PZPAKSvcuVp2615NX0vxfxBRfPzlI0N0
+id: media_save_action
+label: 'Save media'
+type: media
+plugin: media_save_action
+configuration: {  }

@@ -1,0 +1,8 @@
+uuid: f61420b6-e469-4240-9cab-9b29ca4f78ad
+langcode: ko
+status: true
+dependencies: {  }
+id: theme-menu
+label: 테마메뉴
+description: ''
+locked: false

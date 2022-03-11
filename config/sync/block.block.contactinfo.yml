@@ -1,0 +1,31 @@
+uuid: 731aff05-3e1c-4d6d-8be7-06feb274aebb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5c386222-a853-46e7-b120-1d96242be928'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: contactinfo
+theme: startupgrowth
+region: sidebar_second
+weight: -27
+provider: null
+plugin: 'block_content:5c386222-a853-46e7-b120-1d96242be928'
+settings:
+  id: 'block_content:5c386222-a853-46e7-b120-1d96242be928'
+  label: 'Contact Info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact\r\n/contact/alternative"
+    negate: false
+    context_mapping: {  }

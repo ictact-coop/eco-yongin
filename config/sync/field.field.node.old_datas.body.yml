@@ -1,0 +1,23 @@
+uuid: 84efb51a-17d7-4777-8fa3-1b4eb34cd590
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.old_datas
+  module:
+    - text
+id: node.old_datas.body
+field_name: body
+entity_type: node
+bundle: old_datas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,45 @@
+uuid: db471d7a-b125-4913-90b5-257cf4d935c2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabs_block:ef75ff4d-5049-4e15-91f2-89e64289799e'
+  module:
+    - block_content
+    - ctools
+    - system
+  theme:
+    - startupgrowth
+id: sidebartabs
+theme: startupgrowth
+region: hidden_blocks_collection
+weight: -19
+provider: null
+plugin: 'block_content:ef75ff4d-5049-4e15-91f2-89e64289799e'
+settings:
+  id: 'block_content:ef75ff4d-5049-4e15-91f2-89e64289799e'
+  label: 'Sidebar tabs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      activity: activity
+      chonghoe: chonghoe
+      mt_showcase: mt_showcase
+      notice: notice
+      old_datas: old_datas
+      press: press
+      report: report
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

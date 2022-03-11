@@ -1,0 +1,22 @@
+uuid: 4042e661-1c4a-478d-be25-4081416a049e
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.204_1
+id: node.204_1.promote
+field_name: promote
+entity_type: node
+bundle: '204_1'
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

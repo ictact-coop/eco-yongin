@@ -1,0 +1,19 @@
+uuid: 71c27eca-342a-49d5-9ae2-4e5bc147b3b0
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_font_awesome_classes
+    - node.type.notice
+id: node.notice.field_mt_font_awesome_classes
+field_name: field_mt_font_awesome_classes
+entity_type: node
+bundle: notice
+label: 'Font Awesome classes'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

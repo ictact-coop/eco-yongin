@@ -1,0 +1,14 @@
+uuid: 67cf01ad-6db4-4c09-b3b9-346cf1a2f7e9
+langcode: ko
+status: true
+dependencies:
+  config:
+    - user.role.manager
+  module:
+    - user
+id: user_remove_role_action.manager
+label: 'Remove the 사이트 관리자 role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: manager

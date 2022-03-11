@@ -1,0 +1,8 @@
+uuid: 7fb21329-5551-4db8-8d6c-2001b1ac281b
+langcode: ko
+status: true
+dependencies: {  }
+name: '구 자료'
+vid: old_data
+description: ''
+weight: 0

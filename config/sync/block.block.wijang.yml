@@ -1,0 +1,20 @@
+uuid: 7611fbb9-7faa-4e5a-bbc1-e2ed2a9ecb59
+langcode: ko
+status: true
+dependencies:
+  module:
+    - masquerade
+  theme:
+    - startupgrowth
+id: wijang
+theme: startupgrowth
+region: footer
+weight: -28
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: 위장
+  provider: masquerade
+  label_display: visible
+visibility: {  }

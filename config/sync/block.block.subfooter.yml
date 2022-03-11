@@ -1,0 +1,25 @@
+uuid: c5c919f6-2af5-40cc-a24a-801593d8c6be
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.mt-subfooter-menu
+  module:
+    - system
+  theme:
+    - startupgrowth
+id: subfooter
+theme: startupgrowth
+region: footer
+weight: -27
+provider: null
+plugin: 'system_menu_block:mt-subfooter-menu'
+settings:
+  id: 'system_menu_block:mt-subfooter-menu'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

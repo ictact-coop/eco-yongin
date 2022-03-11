@@ -1,0 +1,38 @@
+uuid: 8927aaac-11cc-4ff9-b841-e93fcac0a000
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.field.node.old_datas.body
+    - field.field.node.old_datas.field_old_data_cate
+    - node.type.old_datas
+  module:
+    - text
+    - user
+id: node.old_datas.default
+targetEntityType: node
+bundle: old_datas
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_old_data_cate:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,13 @@
+uuid: a698d598-995d-41c6-9d69-8743b5efee65
+langcode: ko
+status: true
+dependencies: {  }
+id: font
+label: 폰트
+code: "/* 사이트 전체 폰트 변경 - 네이버 나눔스퀘어 */\r\nbody,\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6,\r\n.title-teaser-text .title,\r\n.sff-02 .site-name,\r\n.slff-02 .site-slogan,\r\n.site-branding__name {\r\n  font-family: 'NanumSquare', sans-serif !important;\r\n}\r\n\r\n/* font size in site */\r\nh1 {\r\nfont-size: 30px;\r\nfont-weight: bold;\r\n\r\n}\r\n\r\nh2 {\r\nfont-size: 26px;\r\nfont-weight: bold;\r\n}\r\nh3 {\r\nfont-size: 22px;\r\nfont-weight: bold;\r\n}\r\nh4 {\r\nfont-size: 18px;\r\nfont-weight: bold;\r\ncolor: #3f3f3f !important;\r\n}\r\nh4 a{\r\nfont-size: 18px;\r\nfont-weight: bold;\r\ncolor: #3f3f3f !important;\r\nfont-weight: 700;\r\n}\r\nh5 {\r\nfont-size: 16px;\r\nfont-weight: bold;\r\n}\r\n\r\n/* 사이트 로고 글씨 색상변경 */\r\n/* \r\n.site-branding__name a{\r\n color: #00000;\r\n} \r\n*/\r\n"
+media: all
+nodeType: ''
+themes: {  }
+preprocess: false
+visibility: false
+pages: ''

@@ -1,0 +1,8 @@
+uuid: 24ba49aa-300b-436d-8f37-cab917e619c3
+langcode: ko
+status: true
+dependencies: {  }
+id: loginmenu
+label: 개인메뉴
+description: ''
+locked: false

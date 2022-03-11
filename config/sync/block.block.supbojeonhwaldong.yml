@@ -1,0 +1,31 @@
+uuid: 051092f0-d4e6-4ad1-9dd1-5798d1c63e9b
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:68592657-6fd2-49eb-b414-eddfe6706886'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: supbojeonhwaldong
+theme: startupgrowth
+region: content
+weight: -26
+provider: null
+plugin: 'block_content:68592657-6fd2-49eb-b414-eddfe6706886'
+settings:
+  id: 'block_content:68592657-6fd2-49eb-b414-eddfe6706886'
+  label: '숲 보전 활동'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /forest
+    negate: false
+    context_mapping: {  }

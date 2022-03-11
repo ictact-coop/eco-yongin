@@ -1,0 +1,13 @@
+uuid: aca09177-c586-4c02-975c-b22f9a106494
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4w1vDIuPlVqNIiynysHZHU-9sBCpx5uiEIPlo4SW1tw
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Your message has been sent. 급한 수신을 원하실 경우 메시지 내용에 연락 받을 전화번호를 기입해주세요'
+redirect: ''

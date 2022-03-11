@@ -1,0 +1,8 @@
+uuid: 664ca7c4-98f6-46ce-896e-4b8554361741
+langcode: ko
+status: true
+dependencies: {  }
+name: '보도자료 카테고리'
+vid: bodojalyo_kategoli
+description: ''
+weight: 0

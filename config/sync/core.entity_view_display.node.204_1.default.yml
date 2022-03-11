@@ -1,0 +1,69 @@
+uuid: 6d2e8ed2-29d8-49a8-b211-3b4a27c0dc67
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.field.node.204_1.body
+    - field.field.node.204_1.comment
+    - field.field.node.204_1.field_file
+    - field.field.node.204_1.field_image
+    - field.field.node.204_1.field_mt_banner_image
+    - field.field.node.204_1.field_mt_font_awesome_classes
+    - field.field.node.204_1.field_mt_slideshow
+    - field.field.node.204_1.field_mt_slideshow_image
+    - field.field.node.204_1.field_mt_slideshow_text
+    - field.field.node.204_1.field_mt_subheader_body
+    - field.field.node.204_1.field_mt_subtitle
+    - field.field.node.204_1.field_mt_video
+    - image.style.large
+    - node.type.204_1
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.204_1.default
+targetEntityType: node
+bundle: '204_1'
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_file:
+    weight: 2
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_mt_banner_image: true
+  field_mt_font_awesome_classes: true
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  field_mt_subheader_body: true
+  field_mt_subtitle: true
+  field_mt_video: true
+  langcode: true

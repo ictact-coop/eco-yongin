@@ -1,0 +1,69 @@
+uuid: ccacc19b-25a1-405a-9c0f-18f4d713d3ff
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.field.node.notice.body
+    - field.field.node.notice.comment
+    - field.field.node.notice.field_file
+    - field.field.node.notice.field_image
+    - field.field.node.notice.field_mt_banner_image
+    - field.field.node.notice.field_mt_font_awesome_classes
+    - field.field.node.notice.field_mt_slideshow
+    - field.field.node.notice.field_mt_slideshow_image
+    - field.field.node.notice.field_mt_slideshow_text
+    - field.field.node.notice.field_mt_subheader_body
+    - field.field.node.notice.field_mt_subtitle
+    - field.field.node.notice.field_mt_video
+    - image.style.large
+    - node.type.notice
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.notice.default
+targetEntityType: node
+bundle: notice
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_file:
+    weight: 2
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_mt_banner_image: true
+  field_mt_font_awesome_classes: true
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  field_mt_subheader_body: true
+  field_mt_subtitle: true
+  field_mt_video: true
+  langcode: true

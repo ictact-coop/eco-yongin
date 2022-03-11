@@ -1,0 +1,30 @@
+uuid: 00cefa62-75f7-4282-af89-ce34005cbe87
+langcode: ko
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.field.comment.comment.field_newcomment
+_core:
+  default_config_hash: ooVjelXSXbiQtp-hYb7LS44vR5UO-Kqu4vf484ggR8w
+id: comment.comment.default
+targetEntityType: comment
+bundle: comment
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_newcomment:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  langcode: true
+  subject: true

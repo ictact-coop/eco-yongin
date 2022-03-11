@@ -1,0 +1,32 @@
+uuid: 31089204-91b6-48f0-8a6d-9ab7b1f9e8f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_pricing_tables
+  module:
+    - node
+    - views
+  theme:
+    - startupgrowth
+id: views_block__mt_pricing_tables_block_1
+theme: startupgrowth
+region: featured
+weight: -19
+provider: null
+plugin: 'views_block:mt_pricing_tables-block_1'
+settings:
+  id: 'views_block:mt_pricing_tables-block_1'
+  label: 'Buying Options'
+  provider: views
+  label_display: visible
+  views_label: 'Buying Options'
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      mt_service: mt_service
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

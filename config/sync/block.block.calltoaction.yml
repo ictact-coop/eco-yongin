@@ -1,0 +1,31 @@
+uuid: 0bd89d2d-0825-404e-a368-0f49ff372d7f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e0e57f99-491c-45c2-befb-83faccf1f26f'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: calltoaction
+theme: startupgrowth
+region: highlighted_bottom_second
+weight: -18
+provider: null
+plugin: 'block_content:e0e57f99-491c-45c2-befb-83faccf1f26f'
+settings:
+  id: 'block_content:e0e57f99-491c-45c2-befb-83faccf1f26f'
+  label: 'Call to action'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/1\r\n/node/16\r\n/node/17"
+    negate: false
+    context_mapping: {  }

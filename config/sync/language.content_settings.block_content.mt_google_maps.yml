@@ -1,0 +1,11 @@
+uuid: 5a40f7e9-3878-4a4e-b46b-618ed7c447ab
+langcode: ko
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_google_maps
+id: block_content.mt_google_maps
+target_entity_type_id: block_content
+target_bundle: mt_google_maps
+default_langcode: site_default
+language_alterable: false

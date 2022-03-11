@@ -1,0 +1,23 @@
+uuid: 5d4fcf2f-3f62-449f-9e7e-e2ddd605d7f5
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chonghoe
+  module:
+    - text
+id: node.chonghoe.body
+field_name: body
+entity_type: node
+bundle: chonghoe
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

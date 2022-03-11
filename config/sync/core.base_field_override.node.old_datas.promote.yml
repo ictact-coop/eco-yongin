@@ -1,0 +1,22 @@
+uuid: cdaf4b64-048a-476f-b319-cda7b8348a33
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.old_datas
+id: node.old_datas.promote
+field_name: promote
+entity_type: node
+bundle: old_datas
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

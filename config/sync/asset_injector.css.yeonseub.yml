@@ -1,0 +1,13 @@
+uuid: f256051d-ce32-480e-8ce8-f6dd750db91f
+langcode: ko
+status: true
+dependencies: {  }
+id: yeonseub
+label: 연습
+code: "#block-views-block-mt-benefits-block-1 .title {\r\n  color: red;\r\n}"
+media: all
+nodeType: ''
+themes: {  }
+preprocess: false
+visibility: false
+pages: ''

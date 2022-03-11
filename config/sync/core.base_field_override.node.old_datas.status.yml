@@ -1,0 +1,22 @@
+uuid: 959b45ae-32e4-41d4-a336-1b1643c6625d
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.old_datas
+id: node.old_datas.status
+field_name: status
+entity_type: node
+bundle: old_datas
+label: 'Publishing status'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

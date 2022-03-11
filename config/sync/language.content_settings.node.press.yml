@@ -1,0 +1,11 @@
+uuid: a925716a-a4bb-401c-bb49-c509592660c8
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.press
+id: node.press
+target_entity_type_id: node
+target_bundle: press
+default_langcode: site_default
+language_alterable: false

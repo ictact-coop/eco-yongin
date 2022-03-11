@@ -1,0 +1,41 @@
+uuid: 45c3f8ba-0363-4e57-86c3-50eb8d70318d
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c399831e-a2e2-43c0-8902-25f8992e1b1e'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - startupgrowth
+id: supbojeonhwaldonggeulsseugi
+theme: startupgrowth
+region: content
+weight: -19
+provider: null
+plugin: 'block_content:c399831e-a2e2-43c0-8902-25f8992e1b1e'
+settings:
+  id: 'block_content:c399831e-a2e2-43c0-8902-25f8992e1b1e'
+  label: '숲 보전 활동 글쓰기'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/forest\r\n/swamp\r\n/river\r\n/citizen\r\n/ecoeducation\r\n/community\r\n/environmental"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      teacher: teacher
+      manager: manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

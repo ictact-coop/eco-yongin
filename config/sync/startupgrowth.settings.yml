@@ -1,0 +1,100 @@
+breadcrumb_separator: fa-angle-right
+scrolltop_display: 1
+scrolltop_icon: fa-angle-up
+color_scheme: gray-green
+content_top_layout_container: container
+content_top_background_color: light-colored-region
+content_bottom_background_color: white-region
+featured_top_layout_container: container-fluid
+featured_top_background_color: white-region
+featured_layout_container: container
+featured_background_color: white-region
+featured_bottom_layout_container: container
+featured_bottom_background_color: white-region
+highlighted_layout_container: container
+highlighted_background_color: light-colored-region
+highlighted_bottom_layout_container: container
+highlighted_bottom_background_color: 'colored-region black'
+footer_top_background_color: light-gray-region
+footer_layout_container: container
+footer_background_color: colored-region
+subfooter_layout_container: container
+subfooter_background_color: colored-region
+animations_state: 1
+content_top_animation_effect: fadeIn
+main_content_animation_effect: fadeIn
+sidebar_first_animation_effect: fadeInLeft
+sidebar_second_animation_effect: fadeInRight
+content_bottom_animation_effect: fadeIn
+featured_top_animation_effect: fadeInDown
+featured_animation_effect: fadeInDown
+featured_bottom_animation_effect: fadeInUp
+highlighted_animation_effect: fadeInDown
+highlighted_bottom_animation_effect: fadeInUp
+footer_top_animation_effect: fadeInUp
+footer_animation_effect: fadeIn
+form_style: form-style-1
+reading_time: 1
+post_progress: 1
+affix_admin_height: '79'
+affix_fixedHeader_height: '72'
+layout_mode: wide
+header_layout_container: container
+fixed_header: 1
+headings_font_family: hff-05
+paragraph_font_family: pff-05
+sitename_font_family: sff-05
+slogan_font_family: slff-05
+rs_slideshow_fullscreen_effect: random
+rs_slideshow_fullscreen_effect_time: '10'
+rs_slideshow_fullscreen_bullets_position: right
+rs_slideshow_fullwidth_effect: random
+rs_slideshow_fullwidth_effect_time: '10'
+rs_slideshow_fullwidth_initial_height: '500'
+rs_slideshow_fullwidth_bullets_position: center
+rs_slideshow_boxedwidth_effect: random
+rs_slideshow_boxedwidth_effect_time: '10'
+rs_slideshow_boxedwidth_initial_height: '500'
+rs_slideshow_boxedwidth_bullets_position: center
+rs_slideshow_internal_effect: random
+rs_slideshow_internal_effect_time: '10'
+rs_slideshow_internal_initial_height: '500'
+rs_slideshow_internal_banner_bullets_position: center
+rs_slideshow_caption_opacity: '40'
+testimonial_slideshow_effect: slide
+testimonial_slideshow_effect_time: '5'
+in_page_slider_effect: slide
+owl_posts_autoplay: 0
+owl_posts_effect_time: '5'
+owl_team_autoplay: 0
+owl_team_effect_time: '5'
+owl_testimonials_autoplay: 0
+owl_testimonials_effect_time: '5'
+owl_companies_autoplay: 0
+owl_companies_effect_time: '5'
+parallax_and_video_bg_state: video
+parallax_and_video_bg_opacity: '80'
+transparent_header_state: 0
+transparent_header_opacity: '40'
+isotope_filters_text: All
+_core:
+  default_config_hash: FNO4FGV3DsqoXCB2S1ASKDoXzLY-ZlKATGipNoT121Q
+features:
+  node_user_picture: false
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: false
+logo:
+  use_default: false
+  path: 'aws-s3://용인환경정의_로고_2.png'
+favicon:
+  use_default: false
+  path: ''
+content_top_highlighted_layout_container: container
+content_top_highlighted_background_color: light-colored-region
+content_top_highlighted_animation_effect: fadeIn
+font_title: ''
+rs_slideshow_internal_bullets_position: left
+isotope_layout_mode: masonry
+google_maps_key: AIzaSyDbRF1zvmiuO10H0MEb0IcrMXt6oWxMttE
+langcode: ko

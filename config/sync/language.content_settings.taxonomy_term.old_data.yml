@@ -1,0 +1,11 @@
+uuid: bfbeab51-e765-445d-a627-27d74725f702
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.old_data
+id: taxonomy_term.old_data
+target_entity_type_id: taxonomy_term
+target_bundle: old_data
+default_langcode: site_default
+language_alterable: false

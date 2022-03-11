@@ -1,0 +1,54 @@
+uuid: 4b3b6df3-3505-4613-82c8-afd95fc5887f
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'edit own comments'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view any 204_1 content'
+  - 'view any activity content'
+  - 'view any article content'
+  - 'view any chonghoe content'
+  - 'view any entity_browser_test content'
+  - 'view any mt_benefit content'
+  - 'view any mt_product content'
+  - 'view any mt_service content'
+  - 'view any mt_showcase content'
+  - 'view any mt_slideshow_entry content'
+  - 'view any mt_testimonial content'
+  - 'view any notice content'
+  - 'view any page content'
+  - 'view any peulonteupeiji content'
+  - 'view any press content'
+  - 'view any report content'
+  - 'view any teset content'
+  - 'view own 204_1 content'
+  - 'view own activity content'
+  - 'view own article content'
+  - 'view own chonghoe content'
+  - 'view own entity_browser_test content'
+  - 'view own mt_benefit content'
+  - 'view own mt_product content'
+  - 'view own mt_service content'
+  - 'view own mt_showcase content'
+  - 'view own mt_slideshow_entry content'
+  - 'view own mt_testimonial content'
+  - 'view own notice content'
+  - 'view own page content'
+  - 'view own peulonteupeiji content'
+  - 'view own press content'
+  - 'view own report content'
+  - 'view own teset content'

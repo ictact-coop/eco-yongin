@@ -1,0 +1,11 @@
+uuid: 73066637-e27d-4812-a5aa-d92f7d9c4a2f
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.204_1
+id: node.204_1
+target_entity_type_id: node
+target_bundle: '204_1'
+default_langcode: site_default
+language_alterable: false

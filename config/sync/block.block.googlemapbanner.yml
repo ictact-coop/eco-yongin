@@ -1,0 +1,31 @@
+uuid: 2d405384-a1d0-4822-be9e-f7a6cb81623d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_google_maps:f6bdedef-1a08-443b-ae4a-8bc4fca14a0a'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: googlemapbanner
+theme: startupgrowth
+region: banner
+weight: -18
+provider: null
+plugin: 'block_content:f6bdedef-1a08-443b-ae4a-8bc4fca14a0a'
+settings:
+  id: 'block_content:f6bdedef-1a08-443b-ae4a-8bc4fca14a0a'
+  label: 'Google map - Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact\r\n/contact/alternative"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,27 @@
+uuid: 991a2f3a-f78e-49d5-92a7-7b240250aed8
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - startupgrowth
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: startupgrowth_page_title
+theme: startupgrowth
+region: content
+weight: -27
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: '페이지 제목'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/35\r\n/node/16\r\n/node/17\r\n/forest\r\n/swamp\r\n/river\r\n/response-to-the-climate-crisis\r\n/citizen\r\n/ecoeducation\r\n/community\r\n/environmental"
+    negate: true
+    context_mapping: {  }

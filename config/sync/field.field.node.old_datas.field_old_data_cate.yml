@@ -1,0 +1,28 @@
+uuid: 293b646d-75c5-4397-bd4d-f8b080fcc989
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_old_data_cate
+    - node.type.old_datas
+    - taxonomy.vocabulary.old_data
+id: node.old_datas.field_old_data_cate
+field_name: field_old_data_cate
+entity_type: node
+bundle: old_datas
+label: '구자료 분류'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      old_data: old_data
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

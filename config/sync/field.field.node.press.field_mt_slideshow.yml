@@ -1,0 +1,23 @@
+uuid: 478b2d94-c1e7-43b3-8edb-3172fbcaca44
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_slideshow
+    - node.type.press
+id: node.press.field_mt_slideshow
+field_name: field_mt_slideshow
+entity_type: node
+bundle: press
+label: 'Promote to front page slideshow'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

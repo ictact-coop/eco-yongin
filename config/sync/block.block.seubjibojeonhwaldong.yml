@@ -1,0 +1,31 @@
+uuid: 37c8768c-fc7d-4f85-b1ab-531c263ee59b
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:454cf2d3-5da7-4259-9a5f-168e29bafb73'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: seubjibojeonhwaldong
+theme: startupgrowth
+region: content
+weight: -25
+provider: null
+plugin: 'block_content:454cf2d3-5da7-4259-9a5f-168e29bafb73'
+settings:
+  id: 'block_content:454cf2d3-5da7-4259-9a5f-168e29bafb73'
+  label: '습지 보전 활동'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /swamp
+    negate: false
+    context_mapping: {  }

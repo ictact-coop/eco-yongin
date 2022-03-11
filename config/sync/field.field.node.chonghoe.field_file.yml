@@ -1,0 +1,27 @@
+uuid: cc78e53a-b235-4580-8db1-594e0736a065
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.chonghoe
+  module:
+    - file
+id: node.chonghoe.field_file
+field_name: field_file
+entity_type: node
+bundle: chonghoe
+label: file
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt hwp doc docx xls xlsx pdf ppt pptx pps ppsx zip alz ai psd jpg jpeg png bmp gif'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,19 @@
+uuid: 532d53a3-05d5-4298-a2ce-0abb65820b55
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_subtitle
+    - node.type.notice
+id: node.notice.field_mt_subtitle
+field_name: field_mt_subtitle
+entity_type: node
+bundle: notice
+label: Subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

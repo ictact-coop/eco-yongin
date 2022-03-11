@@ -1,0 +1,23 @@
+uuid: 80e7dfac-3ba4-47e2-a8c0-57084e61a09a
+langcode: ko
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_subheader_body
+    - node.type.204_1
+  module:
+    - text
+id: node.204_1.field_mt_subheader_body
+field_name: field_mt_subheader_body
+entity_type: node
+bundle: '204_1'
+label: 'Subheader body'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

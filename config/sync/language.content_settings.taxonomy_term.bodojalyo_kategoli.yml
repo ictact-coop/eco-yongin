@@ -1,0 +1,11 @@
+uuid: 2789f8ad-8856-4446-ba48-8f72ef7ce322
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.bodojalyo_kategoli
+id: taxonomy_term.bodojalyo_kategoli
+target_entity_type_id: taxonomy_term
+target_bundle: bodojalyo_kategoli
+default_langcode: site_default
+language_alterable: false

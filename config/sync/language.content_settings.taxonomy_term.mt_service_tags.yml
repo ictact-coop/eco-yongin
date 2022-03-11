@@ -1,0 +1,11 @@
+uuid: f9b8a95e-2438-4e50-b840-3abb1f2feb8d
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mt_service_tags
+id: taxonomy_term.mt_service_tags
+target_entity_type_id: taxonomy_term
+target_bundle: mt_service_tags
+default_langcode: site_default
+language_alterable: false

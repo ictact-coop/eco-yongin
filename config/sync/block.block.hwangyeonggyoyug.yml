@@ -1,0 +1,31 @@
+uuid: 30939fb5-a447-4bd1-a89d-48fa08e33a15
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:98a174ba-5a1c-4945-a4fd-5b1a921d9f49'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: hwangyeonggyoyug
+theme: startupgrowth
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:98a174ba-5a1c-4945-a4fd-5b1a921d9f49'
+settings:
+  id: 'block_content:98a174ba-5a1c-4945-a4fd-5b1a921d9f49'
+  label: 환경교육
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /ecoeducation
+    negate: false
+    context_mapping: {  }

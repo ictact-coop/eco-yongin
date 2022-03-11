@@ -1,0 +1,31 @@
+uuid: d8273f0b-6326-4683-89df-d8ed379f567c
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cd4deb32-2c3a-446e-92d3-4539e98b8e23'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: siminchamyeohwaldong
+theme: startupgrowth
+region: content
+weight: -24
+provider: null
+plugin: 'block_content:cd4deb32-2c3a-446e-92d3-4539e98b8e23'
+settings:
+  id: 'block_content:cd4deb32-2c3a-446e-92d3-4539e98b8e23'
+  label: '생활 환경 운동'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /citizen
+    negate: false
+    context_mapping: {  }

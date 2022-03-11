@@ -1,0 +1,31 @@
+uuid: 58db3937-b830-4887-a80b-2635c323ecca
+langcode: ko
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:91f28ca9-c8e2-4be8-aa5a-1ae02a3ef544'
+  module:
+    - block_content
+    - system
+  theme:
+    - startupgrowth
+id: hwangyeongmunjedaeeung
+theme: startupgrowth
+region: content
+weight: -20
+provider: null
+plugin: 'block_content:91f28ca9-c8e2-4be8-aa5a-1ae02a3ef544'
+settings:
+  id: 'block_content:91f28ca9-c8e2-4be8-aa5a-1ae02a3ef544'
+  label: '난개발 대응'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /environmental
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,11 @@
+uuid: 3eb3af7e-795c-4bc3-acb8-e6cf457ab00b
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mt_showcase_tags
+id: taxonomy_term.mt_showcase_tags
+target_entity_type_id: taxonomy_term
+target_bundle: mt_showcase_tags
+default_langcode: site_default
+language_alterable: false

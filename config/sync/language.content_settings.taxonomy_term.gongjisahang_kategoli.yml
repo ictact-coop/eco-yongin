@@ -1,0 +1,11 @@
+uuid: 8d3056ab-3f84-4c0d-b6d3-d6df6d035594
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gongjisahang_kategoli
+id: taxonomy_term.gongjisahang_kategoli
+target_entity_type_id: taxonomy_term
+target_bundle: gongjisahang_kategoli
+default_langcode: site_default
+language_alterable: false
