@@ -31,3 +31,9 @@ https://www.drupal.org/project/drupal/issues/2997982
     }
 }
 ```
+## development
+
+```
+$ composer update -o
+$ composer drupal:paranoia
+```
