@@ -933,7 +933,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: '기후 위기 대응'
+      title: '기후 대응 활동'
       fields:
         path:
           id: path
@@ -1492,7 +1492,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: "<div class=\"row\">\r\n<div class=\"col-md-3\"><strong><span style=\"font-size: 36px;\">기후 위기 대응</span></strong></div>\r\n\r\n<div class=\"col-md-9\" style=\"left: 0px; top: 1px; width: 72.92%; height: 125px;\">\r\n<p class=\"0\">'기후변화', '지구온난화'를 넘어선 '기후위기'가 현실이 됨에 따라 적극적이고 실천적인 대처를 위한 지역 내 활동 방안을 모색합니다.<span lang=\"EN-US\" style=\"letter-spacing: 0pt;\" xml:lang=\"EN-US\"><span style=\"font-family: 함초롬바탕;\">.</span></span></p>\r\n\r\n<p class=\"0\">기후위기에 대한 시민들의 인식증진을 위해 자원순환운동과 생활 속 자원 저감 활동 등을 실천하고 있습니다<span lang=\"EN-US\" style=\"letter-spacing: 0pt;\" xml:lang=\"EN-US\"><span style=\"font-family: 함초롬바탕;\">.</span></span></p>\r\n\r\n<p class=\"0\">&nbsp;</p>\r\n<a class=\"btn btn-success btn-lg pull-right\" href=\"node/add/mt_showcase\" role=\"button\">글쓰기</a>\r\n</div>\r\n</div>"
+          content: "<div class=\"row\">\r\n<div class=\"col-md-3\"><strong><span style=\"font-size: 36px;\">기후 대응 활동</span></strong></div>\r\n\r\n<div class=\"col-md-9\" style=\"left: 0px; top: 1px; width: 72.92%; height: 125px;\">\r\n<p class=\"0\">'기후변화', '지구온난화'를 넘어선 '기후위기'가 현실이 됨에 따라 적극적이고 실천적인 대처를 위한 지역 내 활동 방안을 모색합니다.<span lang=\"EN-US\" style=\"letter-spacing: 0pt;\" xml:lang=\"EN-US\"><span style=\"font-family: 함초롬바탕;\">.</span></span></p>\r\n\r\n<p class=\"0\">기후위기에 대한 시민들의 인식증진을 위해 자원순환운동과 생활 속 자원 저감 활동 등을 실천하고 있습니다<span lang=\"EN-US\" style=\"letter-spacing: 0pt;\" xml:lang=\"EN-US\"><span style=\"font-family: 함초롬바탕;\">.</span></span></p>\r\n\r\n<p class=\"0\">&nbsp;</p>\r\n<a class=\"btn btn-success btn-lg pull-right\" href=\"node/add/mt_showcase\" role=\"button\">글쓰기</a>\r\n</div>\r\n</div>"
           plugin_id: text_custom
     cache_metadata:
       max-age: -1
